@@ -2,21 +2,74 @@ body{
     background: #e5e5e5;
     color: #252825;
     text-align: center;
+    margin: 0;
 }
-.fat{
+button.fat{
     background: #ff5E84;
     color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 6px;
+    box-shadow: 0px 8px 16px rgba(255, 0, 92, 0.16);
 }
 button{
     color:#ff5E84;
     border: none;
     font-weight: bold;
     background: none;
+    cursor: pointer;
+    outline: none;
 }
-#footer a{
+button:hover{
+    text-decoration: underline;
+}
+a:hover{
+    text-decoration: underline;
+}
+footer, #buttons{
+    text-align:center;
+}
+footer a{
     color: 252828;
     text-decoration: none;
 }
 .hide{
     display: none;
+}
+#intro{
+    width: 300px;
+    margin-right: 20px;
+}
+#main{
+    margin: 32px 0;
+}
+#buttons{
+    display: flex;
+    margin-bottom: 32px;
+    justify-content: space-evenly;
+}
+#container{
+    width: 80%;
+    max-width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+.idea{
+    display: flex;
+    border: 1px solid red;
+    margin-bottom: 32px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    background-color: #fff;
+}
+.idea img{
+    width: 60px;
+    height: 60px;
+    margin-right: 32px;
+}
+.idea h3{
+    margin: 0;
 }
